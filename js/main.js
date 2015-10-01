@@ -3,9 +3,12 @@
 import Transform from './distort.js';
 import TweenLite from '../lib/TweenLite/TweenLite.min.js';
 import Events from './Events.js';
-//https://dribbble.com/shots/2264986-Lifehack-homescrren
+
+
 let allJSON = null,
   currentJoke = 0;
+
+document.getElementByTagName('svg')[0].style.transform= scale(navigator.devicePixel)
 
 document.getElementById("likeIt").addEventListener(Events.touchStart, (e) => {
   e.preventDefault();
