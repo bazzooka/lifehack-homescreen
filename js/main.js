@@ -8,8 +8,6 @@ import Events from './Events.js';
 let allJSON = null,
   currentJoke = 0;
 
-document.getElementByTagName('svg')[0].style.transform= scale(navigator.devicePixel)
-
 document.getElementById("likeIt").addEventListener(Events.touchStart, (e) => {
   e.preventDefault();
   likeIt();
