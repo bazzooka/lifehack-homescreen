@@ -4,7 +4,7 @@
 
 Try to develop a funny dribbble : https://dribbble.com/shots/2264986-Lifehack-homescrren
 
-You can see the result on : http://bazzooka.github.io/lifehack-homescreen/
+You can see a DEMO on : http://bazzooka.github.io/lifehack-homescreen/
 
 Love it so I decided to try it.
 Funny parts are : 
